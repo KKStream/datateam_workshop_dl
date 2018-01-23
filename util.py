@@ -9,6 +9,9 @@ import sklearn.metrics
 def auc(guess, truth):
     """
     """
+    guess = guess.flatten()
+    truth = truth.flatten()
+    
     fprs, tprs, _ = sklearn.metrics.roc_curve(truth, guess)
 
     return sklearn.metrics.auc(fprs, tprs)
