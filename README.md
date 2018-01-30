@@ -13,7 +13,7 @@
 * virtualenv (if you don't know what virtualenv is, you definitely need it.)
 * clone this repo
 * `cd datateam_workshop_dl`
-* `virtualenv venv`
+* `virtualenv venv` (-p /path/to/python2 if it's python3)
 * `source venv/bin/activate`
 * `pip install jupyter`
 * `pip install tensorflow` or `pip install tensorflow-gpu` if you have gpu
@@ -25,11 +25,13 @@
   - ./datasets/v0_eigens.npz
   - ./datasets/sample.png
   - ./datasets/inception.png
+* `jupyter notebook`
+* explore the notebooks in your browser.
 
 # Source Code
 
-- 00_requirements.ipynb : run all cells to ensure everything works.
-- 01_tensors.ipynb : tensor basic.
+- 00_requirements.ipynb : run all cells to meet all requirements.
+- 01_tensors.ipynb : tensor basics.
 - 02_handicrafts.ipynb : a handcrafted shallow neural network.
 - 03_dense.ipynb : basic neural networks on keras.
 - 04_convolution.ipynb : what convolution neural network is.
