@@ -20,6 +20,7 @@
 * `pip install keras`
 * `pip install matplotlib`
 * `pip install scipy`
+* `pip install sklearn`
 * `pip install git+https://www.github.com/keras-team/keras-contrib.git`
 * download datasets:
   - ./datasets/v0_eigens.npz
