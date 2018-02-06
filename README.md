@@ -44,7 +44,6 @@ We haven't examed it on Python 3, but you can try and let us know :)
 * clone this repo
 * `cd datateam_workshop_dl`
 * `pipenv install` (That is! quite simple, isn't it!?)
-
 * download datasets:
   - ./datasets/v0_eigens.npz
   - ./datasets/sample.png
