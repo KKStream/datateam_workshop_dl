@@ -40,6 +40,10 @@ We haven't examed it on Python 3, but you can try and let us know :)
 
 ## 2. Pipenv
 
+In this installation through pipenv, package *tensorflow* is installed,
+instead of *tensorflow-gpu*. You can manually update the *Pipfile* before
+running through the following steps then.
+
 * install pipenv through the [official doc](https://docs.pipenv.org/install/).
 * clone this repo
 * `cd datateam_workshop_dl`
