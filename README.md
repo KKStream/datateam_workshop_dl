@@ -52,7 +52,7 @@ running through the following steps then.
   - ./datasets/v0_eigens.npz
   - ./datasets/sample.png
   - ./datasets/inception.png
-* `jupyter notebook`
+* `pipenv run jupyter notebook`
 * explore the notebooks in your browser.
 
 PS. Supposedly, it should be super easy to just run `pipenv install` with the *Pipfile* to take care of all installation.
