@@ -7,9 +7,18 @@
 - learn the general structure of convolution neural networks
 - achieve auc 0.85 on KKTV Data Game 17.11
 
+
 # Installation
 
-* python 2.7
+There are, at least, two ways confirmed to prepare and install your environment
+for this workshop project. The 1st one is through the classical Virtualenv and Pip.
+The 2nd is to leverage the new proposal of Python package management, Pipenv.
+
+Oh, forgot to mention that the workshop is tested on Python 2.7.
+We haven't examed it on Python 3, but you can try and let us know :)
+
+## 1. Virtualenv & Pip
+
 * virtualenv (if you don't know what virtualenv is, you definitely need it.)
 * clone this repo
 * `cd datateam_workshop_dl`
@@ -28,6 +37,24 @@
   - ./datasets/inception.png
 * `jupyter notebook`
 * explore the notebooks in your browser.
+
+## 2. Pipenv
+
+In this installation through pipenv, package *tensorflow* is installed,
+instead of *tensorflow-gpu*. You can manually update the *Pipfile* before
+running through the following steps then.
+
+* install pipenv through the [official doc](https://docs.pipenv.org/install/).
+* clone this repo
+* `cd datateam_workshop_dl`
+* `pipenv install` (That is! quite simple, isn't it!?)
+* download datasets:
+  - ./datasets/v0_eigens.npz
+  - ./datasets/sample.png
+  - ./datasets/inception.png
+* `jupyter notebook`
+* explore the notebooks in your browser.
+
 
 # Source Code
 
