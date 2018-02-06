@@ -1,0 +1,25 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+matplotlib = "*"
+jupyter = "*"
+keras = "*"
+scipy = "*"
+sklearn = "*"
+tensorflow = "*"
+keras-contrib = {git = "https://www.github.com/keras-team/keras-contrib.git"}
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "2.7"
