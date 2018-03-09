@@ -59,19 +59,13 @@ running through the following steps then.
 * install pipenv through the [official doc](https://docs.pipenv.org/install/).
 * clone this repo
 * `cd datateam_workshop_dl`
-* `pipenv install jupyter tensorflow keras matplotlib scipy sklearn git+https://www.github.com/keras-team/keras-contrib.git#egg=keras-contrib`
+* `pipenv install` (that's it!)
 * download datasets:
   - ./datasets/v0_eigens.npz
   - ./datasets/sample.png
   - ./datasets/inception.png
 * `pipenv run jupyter notebook`
 * explore the notebooks in your browser.
-
-PS. Supposedly, it should be super easy to just run `pipenv install` with the *Pipfile* to take care of all installation.
-Unfortunately, there is still some bug in pipenv such that in some environment, some dependency sub-packages wouldn't
-get installed. Therefore, there is no lazy magic here, right now.
-You can still try `pipenv install`. 
-And if it didn't work, try the lousy and lengthy one provided in the above ;)
 
 
 # Source Code
