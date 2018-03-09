@@ -1,5 +1,17 @@
 # Deep Learning Workshop
 
+This repository is for KKStream Deep Learning Workshop.
+
+During the workshop, you would use, at least, two datasets:
+Fashion MNIST, and KKTV Data Game 17.11.
+The famous open-source libraryies, TensorFlow and Keras, would get used,
+but in some step-by-step ways such that you don't need have experience with them.
+Furthermore, some fundamental mathematics would get practiced through codes,
+including Linear Algebra (matrix operation), Calculus (differential) and even Linear Regression.
+Finally, the mythical Deep Learning would be guided with some hints about parameters you can tune.
+
+Oh, do we mention that the whole workshop requires you do some Python coding?!
+
 ## Expectations
 
 - learn the basic concepts of deep learning
@@ -47,12 +59,12 @@ running through the following steps then.
 * install pipenv through the [official doc](https://docs.pipenv.org/install/).
 * clone this repo
 * `cd datateam_workshop_dl`
-* `pipenv install` (That is! quite simple, isn't it!?)
+* `pipenv install` (that's it!)
 * download datasets:
   - ./datasets/v0_eigens.npz
   - ./datasets/sample.png
   - ./datasets/inception.png
-* `jupyter notebook`
+* `pipenv run jupyter notebook`
 * explore the notebooks in your browser.
 
 
